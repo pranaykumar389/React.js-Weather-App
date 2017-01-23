@@ -1,10 +1,11 @@
 {
-  "name": "boilerplate",
+  "name": "reactweatherapp",
   "version": "1.0.0",
   "description": "\"Simple React App\"",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "\"Pranay Kumar\"",
   "license": "ISC",
@@ -22,5 +23,13 @@
     "babel-preset-react": "^6.22.0",
     "babel-preset-stage-0": "^6.22.0",
     "webpack": "^1.14.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranaykumar389/React.js-Weather-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pranaykumar389/React.js-Weather-App/issues"
+  },
+  "homepage": "https://github.com/pranaykumar389/React.js-Weather-App#readme"
 }
